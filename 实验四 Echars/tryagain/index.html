@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>数据可视化</title>
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+        <!--头部盒子-->
+        <header>
+            <h1>行星与命理-ECharts</h1>
+        </header>
+        <!--页面主体-->
+        <section class="mainbox">
+        <!-- 左模块 -->
+        <div class="column">
+        <!-- 左顶部模块 -->
+        <div class="no">
+            <div class="no-hd">
+                <ul>
+                    <li>行星</li>
+                    <li>宫位</li>
+                    <li>星座</li>
+                </ul>
+            </div>
+            <div class="no-bd">
+                <ul>
+                    <li>planet</li>
+                    <li>position</li>
+                    <li>constellation</li>
+                </ul>
+            </div>
+        </div>
+        <!-- 左中部模块 -->
+        <div class="map main">
+            <div class="map1"></div>
+            <!-- <div class="map2"></div> -->
+            <div class="map3"></div>
+            <div class="chart"></div>
+        </div>
+        <div class="under line">
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+        </div>
+        </div> 
+        <!-- 中间模块 -->
+        <div class="column">
+            <div class="top pie1">
+                <div class="chart"></div>
+                <h2>阴性-阳性星座统计</h2>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel-line pie2">
+                <div class="chart"></div>
+                <h2>五行元素占比统计</h2>
+            </div>
+            <div class="panel-left pie3">
+                <div class="chart"></div>
+                <h2>阴阳本位元素占比统计</h2>
+                <div class="panel-footer"></div>
+            </div>
+        </div>  
+        <!-- 右模块 -->
+        <div class="column">
+            <div class="top line1">
+                <div class="chart"></div>
+                <h2>认可-反对对比折线图</h2>
+                <div class="panel-footer"></div>
+            </div>
+                <div class="panel-right bar2">
+                    <div class="chart"></div>
+                    <h2>宫位-飞宫折线图</h2>
+                    <div class="panel-footer"></div>
+                </div>
+                <div class="line-hum pie4">
+                    <div class="chart"></div>
+                    <h2>星座总汇图</h2>
+                </div>
+        </div>
+        </section>
+        <script src="js/flexible.js"></script>
+        <script src="js/echarts.min.js"></script>
+        <script src="js/index.js"></script>
+            <script>src="js/index.js"</script>
+    </body>
+</html>
